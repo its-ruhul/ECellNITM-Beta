@@ -1,0 +1,49 @@
+.body-help{
+  height: 400px;
+}
+
+.footer{
+  padding: 30px 10px 20px 10px;
+  background-color: #293a53;
+  color: rgb(205, 202, 202);
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.foot-rows-2{
+
+}
+
+.info-columns-3{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.e-cell-about{
+  flex: 2;
+  padding-right: 20px;
+}
+
+.other-columns{
+  flex: 1;
+  padding-left: 10px;
+}
+
+.footer h1 {
+  flex: 1;
+}
+
+.footer p {}
+
+.sub-footnote {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.copyright {
+  flex: 2;
+}
+
+.made-by {
+  flex: 1;
+}
