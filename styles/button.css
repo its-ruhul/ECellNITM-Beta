@@ -5,4 +5,17 @@
   border-style: solid;
   font-size: 16px;
   cursor: pointer;
+  border-color: white;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.join-us-button {
+  background-color: white;
+  color: rgb(6, 99, 142);
+}
+
+.view-events-button {
+  background-color: lightblue;
+  color: white;
 }

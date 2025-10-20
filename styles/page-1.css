@@ -21,6 +21,10 @@
   line-height: 96px;
 }
 
+.headline-highlight {
+  color: yellow;
+}
+
 .texts-block p {
   color: white;
   font-weight: 500;
