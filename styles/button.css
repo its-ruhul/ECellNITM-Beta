@@ -1,0 +1,8 @@
+.page-1 button {
+  height: 40px;
+  margin: 10px 10px;
+  padding: 6px 20px;
+  border-style: solid;
+  font-size: 16px;
+  cursor: pointer;
+}

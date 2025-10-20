@@ -1,0 +1,65 @@
+.page-1{ 
+
+  padding: 96px 0 32px 0;
+  background-color: lightblue;
+}
+
+.texts-image-1 {
+  display: flex;
+  margin: 16px 100px 10px 100px;
+}
+
+.texts-block {
+  flex: 1;
+}
+
+.texts-block h1 {
+  color: white;
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 96px;
+}
+
+.texts-block p {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.buttons-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.image-and-members {
+  flex: 1;
+}
+
+.stats-holder {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  justify-content: center;
+}
+
+.stats {
+  flex: 1;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stats h1 {
+  color: white;
+  margin: 6px 0;
+  text-align: center;
+
+}
+
+.stats p {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
