@@ -1,6 +1,6 @@
 .page-1{ 
 
-  padding: 96px 0 32px 0;
+  padding: 96px 0 50px 0;
   background-color: lightblue;
 }
 
@@ -25,6 +25,36 @@
   font-size: 70px;
   margin: 0px 0px;
   font-weight: 1000;
+
+  margin-inline: auto;
+  overflow: hidden;
+  display: inline-block;
+
+  /*Keeps on a single line */
+  white-space: nowrap;
+
+  /*The cursor */
+  border-right: 3px solid;
+
+  /*steps = number of characters */
+  animation: typing 2s steps(30) forwards,
+  blink 1s step-end infinite;
+}
+
+@keyframes typing {
+
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .texts-block p {
