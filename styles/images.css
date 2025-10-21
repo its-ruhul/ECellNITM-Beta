@@ -1,0 +1,12 @@
+.title-image {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.stat-image {
+  height: 50px;
+  width: 50px;
+}

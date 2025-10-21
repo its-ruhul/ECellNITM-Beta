@@ -9,19 +9,30 @@
   align-items: center;
 
   position: fixed;
-  left: 10px;
-  right: 10px;
+  left: 12px;
+  right: 14px;
   top: 10px;
   z-index: 10;
   padding-right: 100px;
   padding-left: 40px;
 
   backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+  border-top: 3px solid rgba(255, 255, 255, 0.4);
+  border-left: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
 
+  transition: all 0.5s;
+}
 
+.header-flexbox:hover {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  height: 80px;
 }
 
 .title-div{
@@ -45,7 +56,6 @@
 }
 
 .ecell-title{
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 26px;
   padding-left: 10px;
@@ -68,7 +78,8 @@
   align-items: center;
 }
 
-.tabs-elements {
+.tabs-elements,
+.tabs-elements-home {
   color: rgb(59, 59, 59);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -86,9 +97,15 @@
   transition: background-color 0.25s;
 }
 
+.tabs-elements-home,
 .tabs-elements:hover {
   color: rgb(09, 40, 217);
-  background-color: rgb(21, 153, 186, 0.3);
+  background-color: rgba(21, 153, 186, 0.3);
+  font-weight: 520;
+}
+
+.tabs-elements-home {
+  margin-right: 2px;
 }
 
 .tabs-elements:active {

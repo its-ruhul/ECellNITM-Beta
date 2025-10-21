@@ -14,10 +14,12 @@
 
 .image-text-2 {
   display: flex;
+  padding: 0px 100px;
 }
 
 .image-holder-2 {
   flex: 1;
+  padding: 40px 0;
 }
 
 .texts-block-2 {
@@ -34,7 +36,6 @@
   font-size: 18px;
   color: rgb(93, 93, 93);
   line-height: 26px;
-  padding-right: 200px
 }
 
 .mini-stats-holder {
@@ -52,4 +53,35 @@
 .mini-stats p {
   white-space: nowrap;
   text-align: center;
+}
+
+.short-message-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 100px;
+}
+
+.short-message {
+  padding: 20px 20px;
+  background-color: rgb(198, 240, 250);
+  margin: 0px 14px;
+
+  border-radius: 20px;
+
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  border-left: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.short-message h3{
+  text-align: center;
+  color: rgb(74, 74, 74);
+}
+
+.short-message p{
+  text-align: center;
+  color: rgb(83, 83, 83);
+
+  display: flex;
+  justify-content: center;
 }

@@ -1,4 +1,8 @@
-.page-1 button {
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.join-us-button {
   margin: 10px 10px;
   padding: 14px 36px;
   border-style: solid;
@@ -7,14 +11,26 @@
   border-color: white;
   border-radius: 6px;
   font-weight: 600;
-}
 
-.join-us-button {
   background-color: white;
   color: rgb(6, 99, 142);
 }
 
+.join-us-button:hover {
+  padding: 16px 38px;
+}
+
 .view-events-button {
+
+  margin: 10px 10px;
+  padding: 14px 36px;
+  border-style: solid;
+  font-size: 18px;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 6px;
+  font-weight: 600;
+
   background-color: lightblue;
   color: white;
 }

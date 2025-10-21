@@ -1,0 +1,46 @@
+.page-3 {
+  background-color: lightcyan;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+
+.about-ecell h1 {
+  text-align: center;
+  margin: 80px 0px 16px 0;
+  font-size: 40px;
+}
+
+.about-ecell h3 {
+  text-align: center;
+  margin: 0px 200px 60px 200px;
+  font-weight: 500;
+  color: grey;
+  font-size: 22px;
+}
+
+.image-text-3 {
+  display: flex;
+  padding: 0px 100px;
+}
+
+.image-holder-3 {
+  flex: 1;
+  padding: 40px 0;
+}
+
+.texts-block-3 {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.texts-block-3 h1 {
+  font-size: 26px;
+  font-weight: 500px;
+  margin: 30px 0px;
+}
+
+.texts-block-3 p {
+  font-size: 18px;
+  color: rgb(93, 93, 93);
+  line-height: 26px;
+}
